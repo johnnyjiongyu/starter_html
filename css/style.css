@@ -1,5 +1,17 @@
 h1 {
-    font-size: 24px;
-
+    font-size: 44px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
 }
 
+p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
