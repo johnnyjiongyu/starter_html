@@ -1,6 +1,33 @@
+/* body {
+    background-color: #FDFEEC;
+} */
+
+.skip {
+    top: -40px;
+    position: absolute;
+}
+
+nav {
+    background-color: #F3DCB1;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 40px;
+    font-weight: bold;
+}
+
 h1 {
-    font-size: 5em;
-    font-family: Helvetica, Arial, sans-serif;
+    font-size: 4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
 }
 
@@ -12,6 +39,6 @@ p {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 10% repeat(15 1fr) 10%;
     grid-gap: 10px;
 }
